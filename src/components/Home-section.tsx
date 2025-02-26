@@ -17,7 +17,7 @@ const ProjectsData = [
   },
   {
     projetcs: "98.9%",
-    projectName: "Client Stisfaction",
+    projectName: "Client Satisfaction",
   },
   {
     projetcs: "30+",
@@ -114,7 +114,7 @@ export default function HomeSection() {
               </a>
 
               <a
-                href="https://www.upwork.com/freelancers/~01446faab084f247d5"
+                href="https://calendly.com/aubair-akif-dev1998/30min"
                 target="_blank"
                 rel="noopener noreferrer"
               >

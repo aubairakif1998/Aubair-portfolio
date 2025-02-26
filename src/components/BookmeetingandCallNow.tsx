@@ -6,7 +6,7 @@ import CallIcon from "@/assets/Call-icon.svg";
 import CallIconWhite from "@/assets/Call-icon-white.svg";
 import UploadIcon from "@/assets/Upload Icon.svg";
 import UploadIconWhite from "@/assets/Upload Icon-white.svg";
-import MainImaeg from "@/assets/meeting-and-call-main-image.svg";
+import MainImage from "@/assets/meeting-and-call-main-image.svg";
 import ClosedIcon from "@/assets/Close-svg.svg";
 import "@/style/BookMeetingCallNow.css";
 
@@ -164,13 +164,19 @@ export default function BookmeetingandCallNow() {
         </div>
 
         <div className="Meeting-main-image">
-          <h1>High-impact services</h1>
+          <h1>High-Impact Tech Solutions</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Expert in Full-Stack MERN, Cloud, and AI-driven solutions for
+            scalable and efficient applications.
           </p>
+          <div className="services-list">
+            <span>MERN Stack Development</span> |
+            <span> Cloud (AWS, Azure, GCP)</span> |
+            <span> AI & Machine Learning</span> |{" "}
+            <span>API & Integrations</span>
+          </div>
           <div>
-            <Image src={MainImaeg} alt="Main Image" />
+            <Image src={MainImage} alt="Tech Solutions" />
           </div>
         </div>
       </div>

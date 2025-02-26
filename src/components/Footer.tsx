@@ -59,27 +59,28 @@ export default function Footer() {
             </div>
           </div>
           <div className="company-description">
-            <h2>Aubair Company</h2>
+            <h2>Aubair Tech Solutions</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              Passionate about building cutting-edge digital solutions, I
+              specialize in Full-Stack MERN development, Cloud services, and
+              AI-driven innovations. With a commitment to excellence, I
+              transform ideas into scalable, high-impact applications that
+              empower businesses and enhance user experiences. Innovation,
+              efficiency, and problem-solving are at the core of everything I
+              do.
             </p>
           </div>
         </div>
 
         <div className="foter-bottom">
           <div className="bottom-copyright">
-            <p>© 2023 All rights reserved</p>
+            <p>© 2025 All rights reserved</p>
           </div>
-          <div className="bottom-tags">
+          {/* <div className="bottom-tags">
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
             <a href="#">Cookies</a>
-          </div>
+          </div> */}
           <div className="bottom-icons">
             <Image src={Faebook} alt="icon" className="btm-icon" />
             <Image src={Twitter} alt="icon" className="btm-icon" />
