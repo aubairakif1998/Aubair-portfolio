@@ -1,0 +1,189 @@
+/* Header Main Styling */
+.header-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 38px 120px;
+  position: relative;
+  background-color: #ffffff; /* Optional for clarity */
+}
+
+.header-inner {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Main-logo {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+.Main-logo .aubair-logo-main {
+  width: 100%;
+}
+
+.tags-items {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+}
+
+.tags-items .tags {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.drop-tags {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+}
+
+.header-btn-call {
+  border: 1px solid #8e2de2;
+  width: 166px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: pre;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  /* position: fixed; */
+  position: absolute;
+  top: 25px; /* Adjust as needed */
+  left: 0; /* Adjust position relative to your layout */
+  background-color: #ffffff;
+  box-shadow: 1px 5px 20px -6px gray;
+  display: none;
+  padding: 1rem;
+  z-index: 90099;
+  width: 500px; /* Width of the dropdown */
+  border-radius: 12px;
+}
+
+.drop-tags:hover .dropdown-menu,
+.drop-tags:hover .dropdown-icon,
+.dropdown-menu.active {
+  display: flex;
+}
+
+.dropdown-icon:hover + .dropdown-menu {
+  display: flex;
+}
+
+/* Grid Container for Dropdown Items */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 12px; /* Space between items */
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.dropdown-item:hover {
+  color: #8e2de2;
+}
+
+/* Mobile Menu Styling */
+@media only screen and (max-width: 1024px) {
+  .header-main {
+    padding: 38px 60px;
+  }
+
+  .tags-items {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    padding: 20px 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .tags-items.active {
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: block;
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+  }
+
+  .hamburger-icon .HamIcon {
+    width: 54px;
+    height: 54px;
+  }
+}
+
+/* Mobile Dropdown Menu Adjustments */
+@media only screen and (max-width: 768px) {
+  .header-main {
+    padding: 38px 30px;
+  }
+  .hamburger-icon {
+    width: 44px;
+    height: 44px;
+  }
+  .HamIcon {
+    width: 40px;
+    height: 40px;
+  }
+  .hamburger-icon .HamIcon .tags-items.active {
+    padding: 20px 30px;
+  }
+
+  .dropdown-menu {
+    width: 300px;
+    left: 0;
+    padding: 0;
+    box-shadow: none;
+    margin-left: -20px;
+  }
+
+  .grid-container {
+    grid-template-columns: 2, 1fr; /* Single column for small screens */
+    background-color: #fff;
+    /* width: 350px; */
+    grid-gap: 0px;
+  }
+  .dropdown-item {
+    font-size: 12px;
+    /* width: 100%; */
+  }
+}

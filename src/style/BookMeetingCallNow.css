@@ -1,0 +1,283 @@
+/* Main Container */
+.bookmeeting-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 38px 120px;
+  border-radius: 10px;
+}
+.bookmeeting-inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.meeting-inpus-main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Heading Styles */
+.heading {
+  width: 90%;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 600;
+  color: #29292b;
+  text-align: start;
+}
+
+.highlight {
+  color: #8e2de2;
+}
+
+/* Buttons Section */
+.buttons-wrapper {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Bookmeeting-a-tag {
+  width: 100%;
+}
+.meeting-button,
+.call-button {
+  width: 85%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  border-radius: 50px;
+  border: 1.5px solid #8e2de2;
+  padding: 0.7rem 2rem;
+  background-color: transparent;
+  font-family: "Montserrat";
+  color: #8e2de2;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: -1px;
+}
+
+.meeting-button:hover,
+.call-button:hover {
+  background-color: #8e2de2;
+  color: #fff;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+/* Image Section */
+.Meeting-main-image h1 {
+  color: #022140;
+  font-family: "Poppins";
+  font-size: 31.15px;
+  font-weight: bolder;
+}
+.Meeting-main-image p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+.Meeting-main-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.close-button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.upload-section {
+  width: 100%;
+}
+
+.file-input {
+  display: none; /* Completely hides the file input */
+}
+
+.file-upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  text-align: center;
+}
+
+.file-upload-label:hover {
+  border-color: #007bff;
+}
+
+.upload-text {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Preview Section */
+.preview-section img.image-preview {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.preview-section a.doc-link {
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.preview-section a.doc-link:hover {
+  text-decoration: underline;
+}
+
+/* Link Submission */
+.link-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 60%;
+}
+
+.link-section input {
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px 24px;
+  border-radius: 12px;
+  width: 100%;
+  color: #000;
+}
+
+.modal-submit {
+  padding: 12px 24px;
+  background-color: #8e2de2;
+  border: none;
+  border-radius: 24px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-submit:hover {
+  background-color: #7020b0;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 1440px) {
+  .bookmeeting-main {
+    padding: 38px 80px;
+  }
+  .heading {
+    width: 100%;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .buttons-wrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .bookmeeting-main {
+    padding: 38px 60px;
+  }
+  .heading {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .buttons-wrapper {
+    width: 90%;
+  }
+  .Meeting-main-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bookmeeting-main {
+    padding: 38px 30px;
+  }
+  .heading {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .buttons-wrapper {
+    width: 100%;
+  }
+  .meeting-button,
+  .call-button {
+    width: 100%;
+    font-size: 16px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .modal {
+    width: 90%;
+  }
+  .modal-content h3 {
+    font-size: 12px;
+  }
+  .preview-section p {
+    font-size: 12px;
+  }
+  .link-section label {
+    font-size: 14px;
+  }
+  .link-section {
+    width: 100%;
+  }
+}

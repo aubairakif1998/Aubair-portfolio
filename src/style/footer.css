@@ -1,0 +1,165 @@
+.footer-main {
+  width: 100%;
+  padding: 38px 120px;
+}
+.footer-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.links-main-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.technology-inner-2 {
+  display: flex;
+  gap: 71px;
+}
+.technologies {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 36px 30px;
+}
+.technologies h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #1b1d21;
+}
+.ul-item,
+.ul-item ul {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  white-space: pre;
+}
+.ul-item ul li {
+  list-style: none;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d21;
+}
+.company {
+  padding: 36px 30px;
+}
+.company .ul-item ul li {
+  cursor: pointer;
+}
+.company-description {
+  width: 625px;
+  height: auto;
+  padding: 36px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: #9747ff3d;
+}
+.company-description h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.38px;
+  letter-spacing: -1px;
+  color: #29292b;
+}
+.company-description p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: -1px;
+  color: #29292b;
+}
+
+.foter-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-copyright {
+  display: flex;
+}
+.bottom-copyright p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0a142f;
+}
+.bottom-tags {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+.bottom-tags a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0a142f;
+}
+.bottom-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.bottom-icons .btm-icon {
+  cursor: pointer;
+}
+.bottom-icons .btm-icon:hover {
+  color: red;
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1440px) {
+  .footer-main {
+    padding: 38px 80px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .footer-main {
+    padding: 38px 60px;
+  }
+  .links-main-footer {
+    flex-wrap: wrap;
+  }
+  .foter-bottom {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-main {
+    padding: 38px 30px;
+  }
+  .technologies {
+    padding: 36px 0px;
+  }
+  .links-main-footer {
+    gap: 30px;
+  }
+  .company-description {
+    gap: 15px;
+  }
+  .company-description h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .company-description p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19.5px;
+  }
+}
+/* @media only screen and (max-width: 455px) {
+} */

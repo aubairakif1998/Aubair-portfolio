@@ -1,0 +1,152 @@
+/* ServiceSection.css */
+
+.augmention-service {
+  width: 100%;
+  padding: 38px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.slider-image-2 {
+  width: 50%;
+}
+
+.tab-pane {
+  width: 100%;
+}
+
+.slide-text-1 h2 {
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 75.6px;
+  letter-spacing: -4%;
+  color: #000000;
+}
+
+.Slider-and-images-main-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 38px 0;
+}
+
+.main {
+  width: 50%;
+  padding: 40px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.big-circle {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-block {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center center;
+  transition: transform 2s ease;
+}
+
+.icon-block img {
+  width: 77px;
+  height: 77px;
+}
+
+.icon-block p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #000000;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-inner-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.service-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  .big-circle-view {
+    display: block;
+  }
+  .flex-row-view {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .Slider-and-images-main-div {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 70px;
+  }
+  .augmention-service {
+    padding: 38px 80px;
+  }
+  .big-circle-view {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .augmention-service {
+    padding: 38px 80px;
+  }
+  .slider-image-2 {
+    width: 90%;
+  }
+  .tab-pane {
+    width: 100%;
+  }
+  .service-img {
+    width: 100%;
+  }
+  .service-img .img-fluid {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .augmention-service {
+    padding: 38px 30px;
+  }
+}
