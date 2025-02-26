@@ -1,8 +1,8 @@
 import "@/style/footer.css";
-import Faebook from "@/assets/face book.svg";
-import Twitter from "@/assets/twitter.svg";
-import Instagram from "@/assets/instagram.svg";
-import Youtube from "@/assets/youtub.svg";
+import Facebook from "@/assets/face book.svg";
+// import Twitter from "@/assets/twitter.svg";
+import linkdin from "@/assets/link.svg";
+// import Youtube from "@/assets/youtub.svg";
 import Image from "next/image";
 const technologies = [
   { technology: "Phyton" },
@@ -82,10 +82,34 @@ export default function Footer() {
             <a href="#">Cookies</a>
           </div> */}
           <div className="bottom-icons">
-            <Image src={Faebook} alt="icon" className="btm-icon" />
-            <Image src={Twitter} alt="icon" className="btm-icon" />
-            <Image src={Instagram} alt="icon" className="btm-icon" />
-            <Image src={Youtube} alt="icon" className="btm-icon" />
+            <a
+              href="https://www.facebook.com/profile.php?id=61573858130354"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={Facebook} alt="Facebook" className="btm-icon" />
+            </a>
+            {/* <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={Twitter} alt="Twitter" className="btm-icon" />
+            </a> */}
+            <a
+              href="https://www.linkedin.com/in/aubair-akif-7291052b2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={linkdin} alt="Instagram" className="btm-icon" />
+            </a>
+            {/* <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src={Youtube} alt="YouTube" className="btm-icon" />
+            </a> */}
           </div>
         </div>
       </div>
