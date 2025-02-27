@@ -93,7 +93,7 @@ export default function HomeSection() {
                 <div>
                   <p className="profile-name">AUBAIR</p>
                   <a
-                    href="https://www.upwork.com/freelancers/~01446faab084f247d5"
+                    href="https://www.upwork.com/freelancers/~01446faab084f247d5?viewMode=1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="Visit-profile"
@@ -106,7 +106,7 @@ export default function HomeSection() {
 
             <div className="btn-div">
               <a
-                href="https://www.upwork.com/freelancers/~01446faab084f247d5"
+                href="https://www.upwork.com/freelancers/~01446faab084f247d5?viewMode=1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
