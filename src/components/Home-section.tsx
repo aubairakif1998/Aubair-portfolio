@@ -45,15 +45,15 @@ export default function HomeSection() {
           </div>
 
           <div className="video-container">
-            {/* <iframe
+            <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/Jn5hsfbhWx4?autoplay=1&loop=1&mute=1&playlist=Jn5hsfbhWx4&controls=0&fs=0"
-              frameBorder="0"
-              allow="autoplay"
-              allowFullScreen={false}
+              src="https://www.youtube.com/embed/l3SNPnSU2u8?autoplay=1&loop=1&playlist=l3SNPnSU2u8&rel=0"
+              title="YouTube video"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
               className="background-video"
-            ></iframe> */}
+            ></iframe>
           </div>
         </div>
         <div className="inner-2">
