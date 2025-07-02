@@ -92,9 +92,9 @@ export default function Header() {
           <a
             href="#"
             className="tags"
-            onClick={() => scrollToSection("skills")}
+            onClick={() => scrollToSection("products")}
           >
-            Case Studies
+            Products
           </a>
           <a
             href="#"
@@ -103,8 +103,19 @@ export default function Header() {
           >
             Projects
           </a>
-          <a href="#" className="tags" onClick={() => scrollToSection("About")}>
-            About
+          <a
+            href="#"
+            className="tags"
+            onClick={() => scrollToSection("testimonials")}
+          >
+            Testimonials
+          </a>
+          <a
+            href="#"
+            className="tags"
+            onClick={() => scrollToSection("resources")}
+          >
+            Resources
           </a>
           <a
             href="#"
@@ -113,7 +124,14 @@ export default function Header() {
           >
             Contact Us
           </a>
-          <button className="header-btn-call">Schedule a Call</button>
+          <a
+            href="https://calendly.com/aubair-akif-dev1998/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="header-btn-call"
+          >
+            Schedule a Call
+          </a>
         </div>
       </div>
     </div>

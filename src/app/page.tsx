@@ -5,6 +5,11 @@ import HomeSection from "@/components/Home-section";
 import OurServices from "@/components/OurServices";
 import SkillsTechnology from "@/components/SkillsTechnology";
 import Projects from "@/components/Projects";
+import ProductsSection from "@/components/ProductsSection";
+import TestimonialsWall from "@/components/TestimonialsWall";
+import ProfessionalCredentials from "@/components/ProfessionalCredentials";
+import ResourceLibrary from "@/components/ResourceLibrary";
+import FAQSection from "@/components/FAQSection";
 import BookmeetingandCallNow from "@/components/BookmeetingandCallNow";
 import GetForm from "@/components/GetPopup";
 import Footer from "@/components/Footer";
@@ -29,6 +34,21 @@ export default function Home() {
       </section>
       <section id="projects">
         <Projects />
+      </section>
+      <section id="products">
+        <ProductsSection />
+      </section>
+      <section id="testimonials">
+        <TestimonialsWall />
+      </section>
+      <section id="credentials">
+        <ProfessionalCredentials />
+      </section>
+      <section id="resources">
+        <ResourceLibrary />
+      </section>
+      <section id="faq">
+        <FAQSection />
       </section>
       <BookmeetingandCallNow />
       <section id="contact">
